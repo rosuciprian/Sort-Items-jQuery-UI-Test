@@ -1,0 +1,13 @@
+ul>li:hover {
+    background-color: #fcf8e3;
+    cursor: pointer;
+}
+ul>li.selected {
+    background-color: #f8fffa;
+}
+ul>li.selected > i {
+    margin-right: 5px;
+}
+ul>li.selected:hover {
+    background-color: #ffdcdd;
+}
